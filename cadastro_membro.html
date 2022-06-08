@@ -29,29 +29,18 @@
     <section class="u-clearfix u-section-1" id="sec-8dfc">
       <div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-form u-form-1">
-          <form action="#" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom" name="form" style="padding: 10px;">
+          <form id="membro-form" action="#" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom" name="form" style="padding: 10px;">
             <div class="u-form-group u-form-name">
               <label for="name-91d5" class="u-label">Nome</label>
-              <input type="text" placeholder="Insira seu Nome" id="name-91d5" name="name" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">
+              <input type="text" placeholder="Insira seu Nome" id="name-91d5" name="nome" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">
             </div>
             <div class="u-form-group u-form-name u-form-group-2">
-              <label for="name-e219" class="u-label">CNPJ</label>
-              <input type="text" placeholder="Insira seu CNPJ" id="name-e219" name="cnpj" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">
+              <label for="name-e219" class="u-label">RG</label>
+              <input type="text" placeholder="Insira seu CNPJ" id="name-e219" name="rg" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">
             </div>
             <div class="u-form-group u-form-name u-form-group-3">
-              <label for="name-484e" class="u-label">Atlética</label>
-              <input type="text" placeholder="Insira sua Atlética" id="name-484e" name="atletica" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">
-            </div>
-            <div class="u-form-group u-form-select u-form-group-4">
-              <label for="select-a93b" class="u-label">Selecione seu Cargo</label>
-              <div class="u-form-select-wrapper">
-                <select id="select-a93b" name="CARGO" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white">
-                  <option value="...">...</option>
-                  <option value="Atleta">Atleta</option>
-                  <option value="Membro">Membro</option>
-                </select>
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
-              </div>
+              <label for="name-484e" class="u-label">Atletica CNPJ</label>
+              <input type="text" placeholder="Insira sua Atlética" id="name-484e" name="atleticaCnpj" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">
             </div>
             <div class="u-align-left u-form-group u-form-submit">
               <a href="#" class="u-btn u-btn-submit u-button-style">Enviar</a>
@@ -64,9 +53,7 @@
         </div>
       </div>
     </section>
-
-
-     
     </section>
+    <script src="./controller/cadastro_membro.js"></script>
   </body>
 </html>
